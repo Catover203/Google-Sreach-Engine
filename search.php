@@ -21,7 +21,7 @@ include("classes/ImageResultsProvider.php");
     <link rel="stylesheet" href="assets/css/catboom.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-    <script src="assets/js/catboom.min.js"></script>
+    <script src="assets/js/catboom.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="></script>
 </head>
 <body>
     <div class="wrapper">
