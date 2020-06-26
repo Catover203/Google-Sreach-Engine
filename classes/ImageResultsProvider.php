@@ -52,13 +52,13 @@ class ImageResultsProvider {
                 $displayText = $imageUrl;
             }
             $resultsHtml .= "<div class='gridItem image$count'>
-								<a href".$imageUrl." data-fancybox data-caption=".$displayText." data-siteUrl=".$siteUrl.">
+								<a href='$imageUrl' data-fancybox data-caption='$displayText' data-siteUrl='$siteUrl'>
 								    <script>
 								        $(document).ready(function() {
 								            loadImage(\"$imageUrl\", \"image$count\");
 								        })
                                     </script>
-									<span class='details'>".$displayText."</span>
+									<span class='details'>$displayText</span>
 								</a>
 							</div>";
 
