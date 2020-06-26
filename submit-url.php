@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Search Console Submit Url</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="assets/js/catboom.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="></script>
+    <script src="assets/js/catboom.min.js"></script>
 </head>
 <body>
 <div class="wrapper indexPage">
