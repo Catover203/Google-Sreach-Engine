@@ -1,3 +1,12 @@
+<?php
+sesion_start();
+if(!isset($_SESSION['ID'])){
+echo "Sorry you need <a href='accounts/login.php'>Login</a> Fist";
+}
+$imgtype = ".jpg" OR ".gif" OR ".jpeg" OR ".png";
+$uas = "assets/images/user/".$_SESSION["ID"].$imgtype;
+$uavt = 'assets/images/logo.png';
+?>
 <!doctype html>
 <html lang="vi">
 <head>
@@ -10,6 +19,7 @@
     <script src="assets/js/catboom.min.js"></script>
 </head>
 <body>
+       <a href="accounts/accounts.php"><img src="<?php if(file_exists($uas)){ echo $uas; }else{ echo $uavt; } ?>" align="right" height="50" width="50" class="useravt"></a>
 <div class="wrapper indexPage">
     <div class="mainSection">
         <div class="logoContainer">
